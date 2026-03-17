@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Manual Entry</title>
+    <link rel="stylesheet" href="manual.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Manual Resume Entry</h1>
+      <div class="actions">
+        <button id="save-btn">Save</button>
+        <button id="open-review">Open Review</button>
+      </div>
+      <div id="status" class="status"></div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Basics</h2>
+        <div class="grid">
+          <label>Full Name <input id="full_name" type="text" /></label>
+          <label>Title <input id="title" type="text" /></label>
+          <label>Email <input id="email" type="email" /></label>
+          <label>Phone <input id="phone" type="text" /></label>
+          <label>Website <input id="website" type="text" /></label>
+          <label>LinkedIn <input id="linkedin" type="text" /></label>
+          <label>GitHub <input id="github" type="text" /></label>
+          <label>Summary <textarea id="summary"></textarea></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Location</h2>
+        <div class="grid">
+          <label>Address <input id="location_address" type="text" /></label>
+          <label>City <input id="location_city" type="text" /></label>
+          <label>Region/State <input id="location_region" type="text" /></label>
+          <label>Postal Code <input id="location_postal" type="text" /></label>
+          <label>Country <input id="location_country" type="text" /></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education (1)</h2>
+        <div class="grid">
+          <label>School <input id="education_school_1" type="text" /></label>
+          <label>Degree <input id="education_degree_1" type="text" /></label>
+          <label>Area <input id="education_area_1" type="text" /></label>
+          <label>Start Date <input id="education_start_1" type="text" /></label>
+          <label>End Date <input id="education_end_1" type="text" /></label>
+          <label>GPA <input id="education_gpa_1" type="text" /></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Work (1)</h2>
+        <div class="grid">
+          <label>Company <input id="work_company_1" type="text" /></label>
+          <label>Position <input id="work_position_1" type="text" /></label>
+          <label>Start Date <input id="work_start_1" type="text" /></label>
+          <label>End Date <input id="work_end_1" type="text" /></label>
+          <label>Summary <textarea id="work_summary_1"></textarea></label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <label>Comma separated <input id="skills" type="text" /></label>
+      </section>
+    </main>
+
+    <script src="manual.js"></script>
+  </body>
+</html>

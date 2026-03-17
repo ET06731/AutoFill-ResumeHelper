@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Review & Edit</title>
+    <link rel="stylesheet" href="review.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Review & Edit</h1>
+      <div class="actions">
+        <button id="save-btn">Save Changes</button>
+        <button id="preview-btn">Preview Highlight</button>
+        <button id="fill-btn">Fill This Page</button>
+      </div>
+      <div id="status" class="status"></div>
+    </header>
+
+    <main>
+      <section>
+        <h2>JSON Resume</h2>
+        <textarea id="json-text" spellcheck="false"></textarea>
+      </section>
+
+      <section>
+        <h2>Flat Fields</h2>
+        <div id="flat-fields" class="flat-fields"></div>
+      </section>
+    </main>
+
+    <script src="review.js"></script>
+  </body>
+</html>
